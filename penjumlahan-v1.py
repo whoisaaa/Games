@@ -52,7 +52,7 @@ while running:
                 if event.key == pygame.K_RETURN:
                     if not pertanyaan:
                         if text.isdigit() and int(text) == (r_nomor1 + r_nomor2):
-                            jawaban = "Kamu benar"
+                            jawaban = "Kamu benar 😘"
                             warna_jawaban = hijau
                             poin += 1
                         else:
